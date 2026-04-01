@@ -1,0 +1,144 @@
+/* COLORS */
+:root {
+    --red: #A41623;
+    --orange: #F79F79;
+    --navy: #0B132B;
+    --gray: #7F7B82;
+    --slate: #70798C;
+}
+
+/* BASE */
+body {
+    margin: 0;
+    font-family: "Arial", "Verdana", sans-serif;
+    background-color: var(--navy);
+    color: white;
+}
+
+/* HEADER (boxy + bold) */
+header {
+    position: relative; /* REQUIRED for absolute logo */
+    background: black;
+    border-bottom: 4px solid var(--red);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* LOGO pinned to left */
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 55px;
+    width: auto;          /* IMPORTANT */
+    max-width: 60px;      /* safety cap */
+
+    object-fit: contain;  /* prevents distortion */
+
+    border: 2px solid var(--gray);
+    background: black;
+}
+
+header h1 {
+    margin: 0;
+    color: var(--orange);
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+/* NAV (old-school button style) */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    display: inline-block;
+    background: var(--gray);
+    color: black;
+    padding: 6px 12px;
+    margin: 4px;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 14px;
+}
+
+/* classic "button press" effect */
+nav a:hover {
+    background: var(--red);
+    color: white;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+/* MAIN LAYOUT */
+main {
+    width: 850px;
+    margin: 20px auto;
+}
+
+.content-container {
+    background: black;
+    border: 3px solid var(--gray);
+    outline: 3px solid var(--red);
+    outline-offset: -8px;
+
+    padding: 0; /* IMPORTANT */
+}
+
+section {
+    padding: 15px 20px;
+    margin-top: 15px;
+}
+
+/* HEADINGS */
+h2 {
+    background: var(--red);
+    color: white;
+    padding: 6px 10px;
+    margin: 0;           /* removes gap */
+}
+
+/* TEXT */
+p {
+    color: #ddd;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+/* IMAGE (framed like old sites) */
+img {
+    width: 100%;
+    border: 3px solid var(--slate);
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    border-top: 4px solid var(--red);
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: var(--gray);
+}
+
+/* OPTIONAL: scanline effect for subtle retro feel */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.02),
+        rgba(255,255,255,0.02) 1px,
+        transparent 1px,
+        transparent 3px
+    );
+}
