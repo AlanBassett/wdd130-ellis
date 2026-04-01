@@ -2,13 +2,13 @@
 
 A retro-styled website exploring the origins and evolution of the **Megami Tensei** and **Persona** game franchises.
 
-## 📌 Overview
+## Overview
 
 This project was created for a WDD 130 course assignment. The goal is to provide a simple, visually distinct website that presents the history of these game series in an engaging and easy-to-navigate format.
 
 The design intentionally uses a **late 90s / early 2000s aesthetic**, inspired by classic web layouts and game UI styles.
 
-## 🎮 Features
+## Features
 
 - Home page with introduction and story summary
 - Dedicated pages for:
@@ -22,7 +22,7 @@ The design intentionally uses a **late 90s / early 2000s aesthetic**, inspired b
 - HTML5
 - CSS3
 
-## 🎨 Design
+## Design
 
 - Color palette:
   - `#A41623` (Red)
@@ -38,7 +38,7 @@ The design intentionally uses a **late 90s / early 2000s aesthetic**, inspired b
 ## 📂 Project Structure
 
 
-## 🚀 Getting Started
+## Getting Started
 
 To run locally:
 
