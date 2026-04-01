@@ -7,7 +7,6 @@
     --slate: #70798C;
 }
 
-/* BASE */
 body {
     margin: 0;
     font-family: "Arial", "Verdana", sans-serif;
@@ -15,16 +14,14 @@ body {
     color: white;
 }
 
-/* HEADER (boxy + bold) */
 header {
-    position: relative; /* REQUIRED for absolute logo */
+    position: relative;
     background: black;
     border-bottom: 4px solid var(--red);
     padding: 20px 0;
     text-align: center;
 }
 
-/* LOGO pinned to left */
 .logo {
     position: absolute;
     left: 20px;
@@ -32,10 +29,10 @@ header {
     transform: translateY(-50%);
 
     height: 55px;
-    width: auto;          /* IMPORTANT */
-    max-width: 60px;      /* safety cap */
+    width: auto;          
+    max-width: 60px;      
 
-    object-fit: contain;  /* prevents distortion */
+    object-fit: contain;  
 
     border: 2px solid var(--gray);
     background: black;
@@ -48,7 +45,6 @@ header h1 {
     letter-spacing: 3px;
 }
 
-/* NAV (old-school button style) */
 nav {
     margin-top: 10px;
 }
@@ -64,7 +60,6 @@ nav a {
     font-size: 14px;
 }
 
-/* classic "button press" effect */
 nav a:hover {
     background: var(--red);
     color: white;
@@ -73,7 +68,6 @@ nav a:hover {
     left: 1px;
 }
 
-/* MAIN LAYOUT */
 main {
     width: 850px;
     margin: 20px auto;
@@ -85,7 +79,7 @@ main {
     outline: 3px solid var(--red);
     outline-offset: -8px;
 
-    padding: 0; /* IMPORTANT */
+    padding: 0;
 }
 
 section {
@@ -93,29 +87,25 @@ section {
     margin-top: 15px;
 }
 
-/* HEADINGS */
 h2 {
     background: var(--red);
     color: white;
     padding: 6px 10px;
-    margin: 0;           /* removes gap */
+    margin: 0;           
 }
 
-/* TEXT */
 p {
     color: #ddd;
     line-height: 1.5;
     font-size: 14px;
 }
 
-/* IMAGE (framed like old sites) */
 img {
     width: 100%;
     border: 3px solid var(--slate);
     margin: 10px 0;
 }
 
-/* FOOTER */
 footer {
     background: black;
     border-top: 4px solid var(--red);
@@ -125,7 +115,6 @@ footer {
     color: var(--gray);
 }
 
-/* OPTIONAL: scanline effect for subtle retro feel */
 body::after {
     content: "";
     position: fixed;
