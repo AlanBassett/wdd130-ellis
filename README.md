@@ -17,7 +17,7 @@ The design intentionally uses a **late 90s / early 2000s aesthetic**, inspired b
 - Retro-inspired UI with custom color palette
 - Clean, structured layout using HTML and CSS
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - HTML5
 - CSS3
@@ -35,7 +35,7 @@ The design intentionally uses a **late 90s / early 2000s aesthetic**, inspired b
   - Early 2000s websites
   - PS1 / PS2 era game interfaces
 
-## 📂 Project Structure
+## Project Structure
 
 
 ## Getting Started
