@@ -131,3 +131,17 @@ body::after {
         transparent 3px
     );
 }
+.persona_img{
+    background: url(images/persona.png);
+    height: 40vw;
+    width: 25vw;
+    border: 3px solid var(--slate);
+    background-size: cover;
+    margin:15vw;
+    margin-top:5px;
+    margin-bottom:0;
+}
+section p{
+    align-content: center;
+    text-align: center;
+}
